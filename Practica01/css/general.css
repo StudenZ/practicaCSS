@@ -1,0 +1,113 @@
+/* =========================
+   Estilos generales
+========================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgb(248, 250, 252);
+  color: rgb(31, 41, 55);
+  line-height: 1.6;
+}
+
+/* =========================
+   Titulos
+========================= */
+h1 {
+  margin: 0;
+  font-size: 34px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(17, 24, 39);
+  margin-top: 0;
+  border-bottom: 2px solid rgb(20, 184, 166);
+  padding-bottom: 6px;
+}
+
+h3 {
+  color: rgb(55, 65, 81);
+}
+
+/* =========================
+   Texto y enlaces
+========================= */
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+a {
+  color: rgb(15, 118, 110);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Encabezado
+========================= */
+header {
+  background-color: rgb(17, 24, 39);
+  color: rgb(249, 250, 251);
+  padding: 28px 16px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+header p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* =========================
+   Navegacion
+========================= */
+nav {
+  background-color: rgb(229, 231, 235);
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+nav a {
+  background-color: rgb(249, 250, 251);
+  color: rgb(17, 24, 39);
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  border: 1px solid rgb(20, 184, 166);
+}
+
+nav a:hover {
+  background-color: rgb(20, 184, 166);
+  color: rgb(249, 250, 251);
+  text-decoration: none;
+}
+
+/* =========================
+   Pie de pagina
+========================= */
+footer {
+  background-color: rgb(17, 24, 39);
+  color: rgb(249, 250, 251);
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer p {
+  text-align: center;
+  margin: 5px 0;
+}
+
+footer address {
+  font-style: normal;
+}
