@@ -147,6 +147,19 @@ nav a:hover {
    Estilos para main, section, article y aside.
    ============================================================ */
 
+aside {
+  width: 90%;
+  max-width: 1100px;
+  margin: 20px auto;
+  background-color: aliceblue;
+}
+
+aside i {
+  margin-right: 8px;
+  font-size: 20px;
+  color: black;
+}
+
 main p {
   font-size: 16px;
 }
@@ -214,6 +227,13 @@ iframe {
   background-color: rgb(226, 232, 240);
 }
 
+img,
+video,
+iframe {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 /* ============================================================
    BLOQUE 7: LISTAS
    Estilos para ul, ol y li.
@@ -272,6 +292,7 @@ textarea {
   margin: 5px 0;
   padding: 8px;
   border: 1px solid rgb(148, 163, 184);
+  resize: vertical;
 }
 
 select {
@@ -290,11 +311,25 @@ button {
   margin: 6px 6px 6px 0;
   padding: 10px 18px;
   border: 1px solid rgb(15, 118, 110);
+  cursor: pointer;
 }
 
 button:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(30, 64, 175);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid black;
+  border-color: aqua;
+}
+
+input:required,
+select:required,
+textarea:required {
+  border-left: 5px solid black;
 }
 
 /* ============================================================
@@ -307,6 +342,13 @@ table {
   margin: 14px 0;
   border: 1px solid rgb(15, 76, 92);
   background-color: rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
 }
 
 thead {
@@ -337,6 +379,9 @@ td {
   border: 1px solid rgb(203, 213, 225);
 }
 
+tr:nth-child {
+  background-color: azure;
+}
 /* ============================================================
    BLOQUE 10: PIE DE PAGINA
    Estilos para footer, footer p y footer address.
@@ -353,4 +398,49 @@ footer address {
   font-size: 15px;
   text-align: center;
   margin: 10px 0 0 0;
+}
+
+/* ============================================================
+   BLOQUE 11: details summary progress meter  
+   ============================================================ */
+details {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
+progress,
+meter {
+}
+
+/* ============================================================
+   BLOQUE 10: Texto tecnico
+   ============================================================ */
+code {
+  background-color: black;
+  color: red;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+kbd {
+  background-color: black;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 4px;
 }
