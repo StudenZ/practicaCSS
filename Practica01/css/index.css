@@ -1,0 +1,50 @@
+.class_btn_nav_2 {
+  border-left: 6px solid aquamarine;
+}
+
+.class_btn_nav_1 {
+  border-left: 6px solid aquamarine;
+}
+
+.class_btn_nav_3 {
+  border-left: 6px solid aquamarine;
+}
+
+#intereses li {
+  background-color: white;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+#pasos li {
+  background-color: white;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+#multimedia h3 {
+  color: green;
+}
+
+section form {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px dashed black;
+}
+
+main figure {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px dashed black;
+}
+
+.nota {
+  background-color: white;
+  border-left: 5px solid black;
+  padding: 12px;
+  font-size: 15px;
+}
