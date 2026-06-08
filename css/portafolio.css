@@ -1,0 +1,42 @@
+/* ============================================================
+   portafolio.css
+   Estilos específicos para la página portafolio.html
+   Se carga después de general.css
+   ============================================================ */
+
+#presentacion-portafolio {
+    border-left: 8px solid #dba112;
+    background-color: #fbfbfb;
+}
+
+#proyectos {
+    background-color: #f7fff4;
+}
+
+.tarjeta-portafolio {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 18px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, border-color 0.3s;
+}
+
+.tarjeta-portafolio:hover {
+    transform: translateY(-5px);
+    border-color: #1b7505;
+}
+
+.tarjeta-portafolio h3 {
+    color: #1b7505;
+    margin-top: 0;
+}
+
+#habilidades {
+    background-color: #fff8e6;
+}
+
+#habilidades table {
+    margin-top: 15px;
+}

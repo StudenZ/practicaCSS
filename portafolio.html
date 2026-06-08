@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio - Aprendizaje Web</title>
+
+    <link rel="icon" href="img/mundito.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi Portafolio de Aprendizaje</h1>
+        <p>Documentando mi progreso en el desarrollo de aplicaciones web.</p>
+    </header>
+
+    <nav>
+        <a class="class_btn_nav_1" id="inicio" href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Inicio
+        </a>
+        <a class="class_btn_nav_2" id="portafolio" href="portafolio.html">
+            <i class="fa-solid fa-briefcase"></i>
+            Portafolio
+        </a>
+        <a class="class_btn_nav_3" id="buscar" href="pages/buscar.html">Buscar</a>
+        <a class="class_btn_nav_3" id="contacto" href="pages/cto/contacto.html">
+            <i class="fa-solid fa-envelope"></i>
+            Contacto
+        </a>
+    </nav>
+
+    <main>
+
+        <section id="presentacion-portafolio">
+            <h2>Sobre mi ruta de aprendizaje</h2>
+            <p>
+                Este portafolio recopila los temas, ejercicios y proyectos que he desarrollado
+                a lo largo del curso de Fundamentos Web. Mi enfoque ha sido dominar el 
+                <strong>HTML Semántico</strong> y explorar cómo el <strong>CSS</strong> permite
+                crear diseños modernos, estructurados y responsivos.
+            </p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos y Actividades</h2>
+
+            <article class="tarjeta-portafolio">
+                <h3>1. Estructuración con HTML Semántico</h3>
+                <p>
+                    Creación de páginas organizadas utilizando etiquetas como <code>&lt;header&gt;</code>, 
+                    <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code> y 
+                    <code>&lt;footer&gt;</code>. Esto mejora la accesibilidad y el SEO.
+                </p>
+            </article>
+
+            <article class="tarjeta-portafolio">
+                <h3>2. Formularios Web Interactivos</h3>
+                <p>
+                    Implementación de formularios para captura de datos, incluyendo validaciones con atributos
+                    como <code>required</code>, <code>minlength</code>, y tipos de input específicos 
+                    (texto, email, fecha, contraseñas).
+                </p>
+            </article>
+
+            <article class="tarjeta-portafolio">
+                <h3>3. Integración Multimedia</h3>
+                <p>
+                    Uso de etiquetas <code>&lt;audio&gt;</code>, <code>&lt;video&gt;</code> y 
+                    <code>&lt;iframe&gt;</code> para enriquecer la experiencia de usuario incorporando
+                    contenido visual y auditivo tanto local como externo.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Imagen Destacada de Referencia</h2>
+            <figure>
+                <img src="img/espe/imagenEjemploEspe.png" alt="Logo Referencial" width="400">
+                <figcaption>Ejemplo de uso de imágenes con etiquetas semánticas figure y figcaption.</figcaption>
+            </figure>
+        </section>
+
+        <section id="habilidades">
+            <h2>Tabla de Progreso y Habilidades</h2>
+
+            <table border="1">
+                <caption>Tecnologías estudiadas y nivel de avance</caption>
+                <thead>
+                    <tr>
+                        <th>Tecnología</th>
+                        <th>Conceptos Clave</th>
+                        <th>Nivel de Avance (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>HTML5</strong></td>
+                        <td>Semántica, Formularios, Tablas, Multimedia</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CSS3</strong></td>
+                        <td>Selectores, Modelo de Caja, Flexbox, Responsive Design</td>
+                        <td>75%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Herramientas</strong></td>
+                        <td>VS Code, Git, GitHub, Inspector de Elementos</td>
+                        <td>80%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Geovanny Brito Casanova.</p>
+        <p>Portafolio creado para la práctica de Desarrollo Web.</p>
+    </footer>
+
+</body>
+
+</html>
